@@ -1,0 +1,160 @@
+.bgImage {
+  background-image: url("../pages/News/resources/newsbg.jpg");
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.optionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.optionContainer h3 {
+  font-size: 24px;
+  font-family: inherit;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  background: #676464;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 20px;
+}
+
+.optionContainer .btn {
+  border-bottom: 1px solid gray;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: left;
+  transition: all 0.2s ease-in;
+}
+
+.optionContainer .btn:hover {
+  background: rgb(83, 83, 83);
+  color: rgb(243, 240, 240);
+  margin: 0px;
+  border-bottom: 0px;
+}
+
+.itemContainer {
+  border-radius: 10px;
+  width: 100%;
+  background: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.EditAboutPageContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.EditAboutPageContainer h3 {
+  font-size: 24px;
+  font-family: inherit;
+  color: rgb(42, 42, 42);
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.EditAboutPageContainer h4 {
+  font-family: inherit;
+  font-size: 20px;
+  color: rgb(36, 36, 36);
+}
+
+.EditAboutPageContainer textarea::-webkit-input-placeholder {
+  color: gray;
+}
+
+.EditAboutPageContainer label {
+  font-size: 20px;
+  font-family: inherit;
+  color: rgb(42, 42, 42);
+  font-weight: 500;
+}
+
+.EditAboutPageContainer .ImageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.EditAboutPageContainer button {
+  width: 50%;
+  margin-left: 25%;
+  /* margin-right: 25%; */
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+
+.formContainer button {
+  margin: 0px;
+  width: auto;
+}
+
+.toastContainer {
+  position: fixed;
+  right: 15%;
+  top: 20%;
+  z-index: 1000000;
+}
+
+.toastContainer .toastPart {
+  width: 270px;
+  background: rgb(10, 125, 233);
+  color: white;
+  font-size: 16px;
+}
+
+.toastContainer .toastPart button {
+  width: 25%;
+}
+
+.toastContainer .toastPart .toast-header {
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 18px;
+}
+
+.EditAboutPageContainer textarea {
+  padding: 30px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.DeleteImageContainer {
+  width: 70%;
+}
+.DeleteImageContainer img {
+  width: 100%;
+  height: 250px;
+}
+
+.EditorContainer h4 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}

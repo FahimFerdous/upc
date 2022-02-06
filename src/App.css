@@ -1,0 +1,212 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 600;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbar-collapse {
+  padding-top: 2%;
+}
+
+.nav-logo {
+  height: 60px;
+  width: 80%;
+}
+
+.btn2 {
+  line-height: 36px;
+}
+
+.navbar-brand {
+  margin-right: 0px;
+}
+
+.aboutUssectionDesign1 {
+  width: 50%;
+  border: 1px solid #17c788;
+}
+
+.managementdesign1 img {
+  height: 272px;
+}
+
+.locattionMapDesign1 img {
+  height: 462px;
+}
+
+.locattionMapDesign1 img:hover {
+  opacity: 0.7;
+}
+
+.birdsEyeImage1 img {
+  height: 650px;
+}
+
+.ContactAddress {
+  text-align: center;
+}
+
+.contactHeading {
+  font-size: 20px;
+  color: #484545;
+}
+
+.contactInfo {
+  font-size: 16px;
+  color: #484545;
+}
+
+.fancybox {
+  z-index: 200000000;
+}
+
+.fancybox img {
+  border-radius: 12px;
+}
+
+.text-muted {
+  color: red !important;
+  font-size: 16px;
+}
+.LoginMainContainer {
+  justify-content: center;
+}
+
+.LoginContainer {
+  max-width: 70%;
+  box-shadow: 2px 2px 4px black;
+  padding: 4%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+
+.LoginContainer h4 {
+  text-align: center;
+  color: #262927;
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+
+  .mr-auto {
+    padding-left: 90px;
+  }
+}
+
+.floating_icons {
+  top: 50%;
+  left: 0;
+  position: fixed;
+  transform: translateY(-50%);
+  z-index: 11000;
+}
+
+.floating_icons ul {
+  padding: initial;
+}
+
+.photoGallery img {
+  width: 100%;
+  height: 300px;
+  padding-bottom: 5%;
+}
+
+.floating_icons ul li {
+  height: 40px;
+  width: 40px;
+  list-style-type: none;
+  padding-left: 12px;
+  padding-top: 6px;
+  margin-top: 5px;
+}
+
+.floating_icons ul li a {
+  color: white;
+}
+
+.floating_icons ul li:hover {
+  padding-left: 30px;
+  width: 80px;
+  transition: 1s;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background: #55acee;
+}
+
+.youtube {
+  background: #ff0000;
+}
+
+.linkedin {
+  background: #007bb5;
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 15px;
+    padding: 6px 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 13px;
+    padding: 6px 14px;
+  }
+  .navbar-collapse .btn {
+    padding: 0px 14px;
+    font-size: 12px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
